@@ -1,8 +1,16 @@
 import React from 'react'
+import Navba from './UI/Navba'
 
 function App() {
+
+  
   return (
-    <div>App</div>
+    <>
+
+<Navba />
+
+
+</>
   )
 }
 
