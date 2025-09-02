@@ -7,6 +7,7 @@ import AnimationWaves from "./UI/AnimationWaves";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Footer from "./sections/Footer";
+import RevealOnScroll from "./Ui/RevealOnScroll";
 import { Contact } from "./sections/Contact";
 
 function App() {
@@ -21,8 +22,10 @@ function App() {
 
       <Navba isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <MobileMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+      <RevealOnScroll>
       <Home />
       <AnimationWaves />
+      </RevealOnScroll>
       <About />
       <Projects />
       <Contact />
