@@ -1,4 +1,4 @@
-import RevealOnScroll from "../Ui/RevealOnScroll";
+import RevealOnScroll from "../UI/RevealOnScroll";
 
 export function Contact() {
   return (
