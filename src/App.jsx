@@ -7,7 +7,7 @@ import AnimationWaves from "./UI/AnimationWaves";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Footer from "./sections/Footer";
-import RevealOnScroll from "./Ui/RevealOnScroll";
+import RevealOnScroll from "./UI/RevealOnScroll";
 import { Contact } from "./sections/Contact";
 
 function App() {
