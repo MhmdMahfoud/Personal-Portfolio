@@ -15,14 +15,14 @@ function Footer() {
            <FaWhatsapp />
           </a>
           <a
-            href="https://www.linkedin.com/feed/"
+            href="https://www.linkedin.com/in/mohammed-mahfoud-4177b7241/"
             className="border p-2 text-2xl rounded hover:-translate-y-2 transition-all bg-blue-700 text-white "
             target="_blank"
           >
             <SlSocialLinkedin />
           </a>
           <a
-            href="https://github.com/dashboard"
+            href="https://github.com/MhmdMahfoud"
             className="border p-2 text-2xl rounded hover:-translate-y-2 transition-all bg-gray-800 text-white "
             target="_blank"
           >
@@ -30,7 +30,7 @@ function Footer() {
           </a>
         </div>
         <p>@ 2025 Mohamad. All rights reserved. </p>
-        <p><strong>Phone :</strong>76977269</p>
+        <p><b>Phone :</b>76977269</p>
         <p>Saida,Lebanon</p>
       </div>
     </footer>

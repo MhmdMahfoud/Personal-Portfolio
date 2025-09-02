@@ -13,7 +13,7 @@ export function Contact() {
           </h2>
 
           <form
-            action="https://formsubmit.co/engmohammedmahfoud2001@gmail.com"
+            action="https://formsubmit.co/www.dddd66.com@gmail.com"
             method="POST"
             className="space-y-6"
           >
