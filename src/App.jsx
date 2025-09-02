@@ -11,13 +11,13 @@ import { Contact } from "./sections/Contact";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  // const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   return (
     <>
-      {/* {!isLoading && (
+      {!isLoading && (
         <LoadingScreenAnimation onComplete={() => setIsLoading(true)} />
-      )} */}
+      )}
 
       <Navba isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <MobileMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
