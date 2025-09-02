@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import P1 from '../assets/p1.jpg'
-import RevealOnScroll from '../Ui/RevealOnScroll';
+import RevealOnScroll from '../UI/RevealOnScroll';
 
 function Projects() {
     const [Projects]=useState([
