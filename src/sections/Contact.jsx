@@ -9,7 +9,7 @@ export function Contact() {
       <RevealOnScroll>
         <div className="w-full max-w-lg md:max-w-2xl lg:w-[600px] xl:w-[700px] mx-auto">
           <h2 className="text-3xl md:text-4xl font-semibold mb-12 bg-gradient-to-r from-teal-500 to-indigo-600 bg-clip-text text-transparent text-center">
-            Get In Touch
+            Get In Touch With 
           </h2>
 
           <form
