@@ -1,12 +1,13 @@
 import React,{useState} from 'react'
 import P1 from '../assets/p1.jpg'
+import P2 from '../assets/demo.png'
 import RevealOnScroll from '../UI/RevealOnScroll';
 
 function Projects() {
     const [Projects]=useState([
 
         { image:P1 , name:"MissJanoub", brief:" website for voting for miss janoub "},
-        { image:P1 , name:"MissJanoub", brief:" website for voting for miss janoub "},
+        { image:P2 , name:"Hotel Mangent System", brief:"UI for Mangment suystem for a hotel"},
         { image:P1 , name:"MissJanoub", brief:" website for voting for miss janoub "}
     ]);
   return (
@@ -47,6 +48,15 @@ function Projects() {
                     >
                       {" "}
                       <img src={project.image} alt={`${project.name}Image `} />
+
+
+                      <a
+                      href="https://github.com/MhmdMahfoud/Boking_Hotel"
+                      className="flex justify-between items-center font-bold text-blue-400 transition-colors hover:text-white"
+                    >
+                      {" "}
+                      <img src={project.image} alt={`${project.name}Image `} />
+                    </a>
                     </a>
                   </div>
                 </div>
